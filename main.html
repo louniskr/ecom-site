@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Soyez à la mode</title>
+  <title>Mode</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -232,9 +231,34 @@
         <!-- Copie les cartes ci-dessus pour les autres produits -->
       </div>
     
-    <div class="image-container row justify-content-end mx-2" id="prod" style="  position: relative;">
-        <div class="row col-3 " style=" ">
-            
+    <div class="container justify-content-start" id="prod" style="  position: relative; width: 100%;">
+      <div class="col-12 welcome mt-5">
+          <div class="col-12">
+            <h1 class="display-3 mb-3" style="text-align: end; font-family: 'Boldonse', sans-serif; font-size: 30px;">
+              NOS PRODUITS
+            </h1>
+          </div>
+        </div>
+        <div class="row ">
+          <div class=" row col-lg-3 mr-2 " >
+            <img class="product" src="https://i.pinimg.com/736x/85/70/bc/8570bc77931b2bb127d20daf3c34c6c6.jpg" style=" width: 260px;  z-index: -1; position: absolute; transition: transform 0.3s ease, filter 0.3s ease;" alt="...">
+            <p style=" color: rgb(255, 255, 255); font-size: 28px;  margin-top:75%; margin-left: 30%;  font-family: 'Boldonse', sans-serif; ">TOPS</p>
+          </div>
+          <div class=" row col-lg-3 mr-2 " >
+            <img class="product" src="https://i.pinimg.com/736x/85/70/bc/8570bc77931b2bb127d20daf3c34c6c6.jpg" style=" width: 260px;  z-index: -1; position: absolute; transition: transform 0.3s ease, filter 0.3s ease;" alt="...">
+            <p style="  color: rgb(255, 255, 255); font-size: 28px;  margin-top:75%; margin-left: 30%;  font-family: 'Boldonse', sans-serif; ">PANTS</p>
+          </div>
+          <div class=" col-lg-3 mr-2 " >
+            <img class="product" src="https://i.pinimg.com/736x/85/70/bc/8570bc77931b2bb127d20daf3c34c6c6.jpg" style=" width: 260px;  z-index: -1; position: absolute; transition: transform 0.3s ease, filter 0.3s ease;" alt="...">
+            <p style="  color: rgb(255, 255, 255); font-size: 28px;  margin-top:75%; margin-left: 30%;  font-family: 'Boldonse', sans-serif;">VESTES</p>
+          </div>
+          <div class=" row col-lg-3 mr-2 " >
+            <img class="product" src="https://i.pinimg.com/736x/85/70/bc/8570bc77931b2bb127d20daf3c34c6c6.jpg" style=" width: 260px;  z-index: -1; position: absolute; transition: transform 0.3s ease, filter 0.3s ease;" alt="...">
+            <p style="  color: rgb(255, 255, 255); font-size: 28px;  margin-top:75%; margin-left: 30%;  font-family: 'Boldonse', sans-serif; ">ROBES</p>
+          </div>
+          
+              
+        </div>
         </div>
 
         
@@ -248,7 +272,7 @@
     @media (max-width: 576px) {
   .responsive-title {
     font-size: 40px !important;
-    :"SUIVEZ LA MODE";
+    
   }
 
   .responsive-btn {
@@ -298,6 +322,11 @@
 
 .image-container:hover .quick-add-overlay {
   transform: translateY(0);
+}
+
+.product:hover {
+  transform: scale(1.05);
+  filter: brightness(70%);
 }
 
 
